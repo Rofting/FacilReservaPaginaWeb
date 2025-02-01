@@ -1,35 +1,34 @@
-<!-- Footer -->
 <footer class="bg-dark text-light text-center text-lg-start mt-5">
     <div class="container py-4">
         <div class="row">
-            <!-- Sección Información -->
+            <!-- Information Section -->
             <div class="col-md-4">
                 <h5 class="text-uppercase">FacilReserva</h5>
-                <p>Tu plataforma confiable para reservar en los mejores restaurantes.</p>
+                <p>Your reliable platform for booking at the best restaurants.</p>
             </div>
 
-            <!-- Sección Enlaces rápidos -->
+            <!-- Quick Links Section -->
             <div class="col-md-4">
-                <h5 class="text-uppercase">Enlaces</h5>
+                <h5 class="text-uppercase">Links</h5>
                 <ul class="list-unstyled">
-                    <li><a href="../index.php" class="text-light text-decoration-none">Inicio</a></li>
-                    <li><a href="../restaurants.php" class="text-light text-decoration-none">Restaurantes</a></li>
-                    <li><a href="../reservations.php" class="text-light text-decoration-none">Reservas</a></li>
+                    <li><a href="../index.php" class="text-light text-decoration-none">Home</a></li>
+                    <li><a href="../restaurants.php" class="text-light text-decoration-none">Restaurants</a></li>
+                    <li><a href="../reservations.php" class="text-light text-decoration-none">Reservations</a></li>
                 </ul>
             </div>
 
-            <!-- Sección Contacto -->
+            <!-- Contact Section -->
             <div class="col-md-4">
-                <h5 class="text-uppercase">Contacto</h5>
-                <p>Email: <a href="mailto:contacto@facilreserva.com" class="text-light text-decoration-none">contacto@facilreserva.com</a></p>
-                <p>Teléfono: +34 900 123 456</p>
+                <h5 class="text-uppercase">Contact</h5>
+                <p>Email: <a href="mailto:contacto@facilreserva.com" class="text-light text-decoration-none">contact@facilreserva.com</a></p>
+                <p>Phone: +34 900 123 456</p>
             </div>
         </div>
     </div>
 
-    <!-- Línea divisoria -->
+    <!-- Divider Line -->
     <div class="bg-secondary text-center py-2">
-        <p class="mb-0">&copy; 2025 FacilReserva. Todos los derechos reservados.</p>
+        <p class="mb-0">&copy; 2025 FacilReserva. All rights reserved.</p>
     </div>
 </footer>
 

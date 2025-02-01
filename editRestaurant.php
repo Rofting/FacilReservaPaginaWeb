@@ -34,8 +34,8 @@ include('templates/header.php');
 
         <label>Disponible:</label>
         <select name="available" class="form-control">
-            <option value="1" selected>Sí</option>
-            <option value="0">No</option>
+            <option value=true selected>Sí</option>
+            <option value=false>No</option>
         </select>
 
         <button type="submit" class="btn btn-warning mt-3">Modificar</button>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         .navbar {
-            background: linear-gradient(90deg, #007bff, #6610f2); /* Degradado azul a morado */
+            background: linear-gradient(90deg, #007bff, #6610f2); /* Blue to purple gradient */
         }
         .navbar-brand {
             font-weight: bold;
@@ -41,12 +41,13 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="../restaurants.php">Restaurantes</a>
+                    <a class="nav-link" href="../restaurants.php">Restaurants</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../reservations.php">Reservas</a>
+                    <a class="nav-link" href="../reservations.php">Reservations</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
+
