@@ -17,6 +17,10 @@ include('templates/header.php');
                         <p><strong>Numero de personas:</strong> <?php echo $reservation['persons']; ?> personas</p>
                         <p><strong>Confirmada:</strong> <?php echo $reservation['confirmation']; ?> disponible</p>
                         <a href="reservations.php?restaurant_id=<?php echo $reservation['id']; ?>" class="btn btn-primary">Ir a Reservas</a>
+                        <div class="d-flex justify-content-between mt-3">
+                            <a href="editReservation.php?id=<?php echo $reservation['id']; ?>" class="btn btn-warning btn-sm">Modificar</a>
+                            <a href="deleteReservation.php?id=<?php echo $reservation['id']; ?>" class="btn btn-danger btn-sm" onclick="return confirm('¿Estás seguro de que deseas eliminar esta reserva?');">Eliminar</a>
+                        </div>
                     </div>
                 </div>
             <?php endforeach; ?>

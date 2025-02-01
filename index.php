@@ -34,7 +34,7 @@ echo "<!DOCTYPE html>
     </div>
 </div>
 
-<?php include('templates/footer.php'); ?> <!-- Incluir el pie de página -->
+<?php include('templates/footer.php'); ?>
 
 <?php
 echo "<script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js'></script>
